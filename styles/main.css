@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+body #box {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
+
+nav li {
+  list-style: none;
+}
+nav a {
+  color: tomato;
+}
+nav a:hover {
+  background-color: black;
+}
+
+.boxs {
+  width: 70vw;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.boxs .box1 .bgColor {
+  height: 40%;
+  background-color: yellow;
+}
+.boxs .box2 .bgColor2 {
+  height: 40%;
+  background-color: pink;
+}
+.boxs .box3 .bgColor3 {
+  height: 40%;
+  background-color: blue;
+}
+.boxs .box4 .bgColor4 {
+  height: 40%;
+  background-color: purple;
+}
+.boxs .box {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.boxs .box .bgColorInformation {
+  border-radius: 10%;
+}
+
+/*# sourceMappingURL=main.css.map */
